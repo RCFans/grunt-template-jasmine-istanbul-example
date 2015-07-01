@@ -10,7 +10,12 @@ npm install
 grunt test:coverage
 ```
 
-and the coverage reports will appear in `bin/coverage/index.html`.
+Integrated with SonarQube, run:
+```bash
+grunt sonar
+```
+
+and the coverage reports will appear in `test/coverage`.
 
 Have a look at the [Gruntfile.js](Gruntfile.js) for the example configuration.
 
